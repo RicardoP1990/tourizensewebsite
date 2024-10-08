@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Desportivo Tourizense</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src="ja.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Menu Lateral -->
+        <!-- Conteúdo Principal -->
+        <main class="main-content">
+            <header>
+                <div class="header-content">
+                    <div class="left-images">
+                        <img src="Tourizense2.png" alt="Imagem à esquerda 1" class="left-image">
+                    </div>
+                    <div class="title-content">
+                        <h1>Grupo Desportivo Tourizense</h1>
+                        <h2>Fundado em 12/12/1975</h2>
+                    </div>
+                    <div class="right-images">
+                        <img src="Tourizense2.png" alt="Imagem à direita 1" class="right-image">
+                    </div>
+                </div>
+            </header>
+            <aside class="sidebar">
+
+                <ul>
+                    <li><a href="#" onclick="showSection('noticias')">Notícias</a></li>
+                    <li><a href="#" onclick="showSection('resultados')">Resultados</a></li>
+                    <li><a href="#" onclick="showSection('calendario')">Calendário</a></li>
+                    <li><a href="#" onclick="showSection('plantel')">Plantel Sénior</a></li>
+                    <li>
+                        <a href="#" id="formacao-link" onclick="toggleSubmenu(event)">Formação</a>
+                        <ul id="submenu" class="submenu">
+                            <li><a href="#" onclick="showSection('sub17')">Sub-17</a></li>
+                            <li><a href="#" onclick="showSection('sub15')">Sub-15</a></li>
+                            <li><a href="#" onclick="showSection('sub13')">Sub-13</a></li>
+                            <li><a href="#" onclick="showSection('sub10')">Sub-10</a></li>
+                            <li><a href="#" onclick="showSection('traquinas')">Traquinas</a></li>
+                            <li><a href="#" onclick="showSection('petizes')">Petizes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" onclick="showSection('E-Sports')">E-sports</a></li>
+
+                    <li><a href="#" onclick="showSection('patrocinadores')">Patrocinadores</a></li>
+                    <li><a href="#" onclick="showSection('contactos')">Contactos</a></li>
+                </ul>
+            </aside>
+
+            <!-- Seções de Conteúdo -->
+            <div id="noticias" class="content-section">
+                <h3>Notícias</h3>
+                <p>Aqui você pode encontrar as últimas notícias sobre o Grupo Desportivo Tourizense.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="resultados" class="content-section">
+                <h3>Resultados</h3>
+                <p>Resultados recentes das partidas do Grupo Desportivo Tourizense.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="calendario" class="content-section">
+                <h3>Calendário</h3>
+                <p>Calendário dos próximos eventos e partidas.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="plantel" class="content-section">
+                <h3>Plantel Sénior</h3>
+                <p>Informações sobre os jogadores do plantel sénior.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="formacao" class="content-section">
+                <h3>Formação</h3>
+                <p>Detalhes sobre os programas de formação.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="sub17" class="content-section">
+                <h3>Sub-17</h3>
+                <p>Informações sobre a equipe Sub-17.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="sub15" class="content-section">
+                <h3>Sub-15</h3>
+                <p>Informações sobre a equipe Sub-15.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="sub13" class="content-section">
+                <h3>Sub-13</h3>
+                <p>Informações sobre a equipe Sub-13.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="sub10" class="content-section">
+                <h3>Sub-10</h3>
+                <p>Informações sobre a equipe Sub-10.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="traquinas" class="content-section">
+                <h3>Traquinas</h3>
+                <p>Informações sobre a equipe Traquinas.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="petizes" class="content-section">
+                <h3>Petizes</h3>
+                <p>Informações sobre a equipe Petizes.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div><div id="E-Sports" class="content-section">
+    <h3>E-Sports</h3>
+    <p>Informações sobre a equipa E-Sports do clube.</p>
+    <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+</div>
+
+            <div id="patrocinadores" class="content-section">
+                <h3>Patrocinadores</h3>
+                <p>Informações sobre os patrocinadores do clube.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+            <div id="contactos" class="content-section">
+                <h3>Contactos</h3>
+                <p>Detalhes de contato do Grupo Desportivo Tourizense.</p>
+                <!-- Adicione mais conteúdo, imagens ou vídeos aqui -->
+            </div>
+        </main>
+    </div>
+
+
+    <footer>
+        © 2024 Grupo Desportivo Tourizense. Todos os direitos reservados.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
